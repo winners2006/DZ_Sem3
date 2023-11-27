@@ -3,7 +3,6 @@
 // максимальным и минимальным элементов массива.
 
 double[] arr = new double[10];
-
 for (int i = 0; i < arr.Length; i++)
 {
         arr[i] = new Random().Next(0, 101) / 10.0;

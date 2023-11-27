@@ -9,6 +9,7 @@
 int n = new Random().Next(0, 100001);
 string arrL = Convert.ToString(n);
 Console.WriteLine(n);
+
 int[] arr = new int[arrL.Length];
 string res = String.Empty;
 for (int i = 0; i < arr.Length; i++)
